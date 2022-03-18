@@ -16,13 +16,13 @@ stack run
 Generally, the goal in this game is to get the least number of point cards. However, if the opppotunity arises, the goal is then to shoot the moon.
 Thus, to futher the first end, the strategy is to minimize the chances of getting point cards. 
 
-First, at the start of the game, if we are not leading, we try to throw the largest card. This is because other are unlikely to be able to throw away 
+First, at the start of the game, if we are not leading, we'll try to throw the largest card. This is because others are unlikely to be able to throw away 
 point cards.
 
 This is done by first ducking- that is to throw a card that is right below the highest card in the trick. Thus, other players cannot force us to take 
 point card. This is slighly more useful in 4 player games
 
-The next bit of strategy comes when there is a void, that is, the hand does not contain any of one suit. This is extemely advantages. Here, 
+The next bit of strategy comes when there is a void -- that is, the hand does not contain any of one suit. This is extemely advantages. Here, 
   * when the hearts are broken:
   the ai will try to throw the highest point card thus lowering the chance that it will take it later
   * when the hearts are not broken, the ai will try to throw the largest non point card. Again, lowering the chance that it will later be forced to play
@@ -48,4 +48,4 @@ unoptimal cards, order them so that the optimal card are at the first index and 
 locations where the brackets are used instead
 
 ## Acknowledgement
-This implementation of the game is done by [Prof. Tim Dwyer](https://ialab.it.monash.edu/~dwyer/) for purpose of the unit FIT2102 Programming Paradigms.
+The backbone implementation of the game is done by [Prof. Tim Dwyer](https://ialab.it.monash.edu/~dwyer/) for purpose of the unit FIT2102 Programming Paradigms
